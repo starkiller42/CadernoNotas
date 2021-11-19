@@ -10,10 +10,13 @@ export const Container = styled.div`
     min-height: 100vh;
 
     input {
-        padding: 5px;
-        width: 200px;
-        height: 15px;
-        margin-bottom: 20px;
+        font-size: 16px;
+        font-size: max(16px, 1em);
+        font-family: inherit;
+        padding: 0.25em 0.5em;
+        background-color: #fff;
+        border: 2px solid var(--input-border);
+        border-radius: 4px;
     }
 
     textarea {

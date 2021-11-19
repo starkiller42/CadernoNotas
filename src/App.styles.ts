@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: #4682B4;
+    background: #7F878A;
     color: #2F4F4F;
     min-height: 100%;
     display: grid;
-    grid-template-columns: 100px 1fr 1fr 1fr 100px;
+    grid-template-columns: 5px 1fr 3fr 5px;
     grid-template-rows: 50px 1fr;
     grid-template-areas: 
         ". header header header ."
@@ -17,13 +17,11 @@ export const Container = styled.div`
 export const Header = styled.h1`
     margin: 0;
     padding: 0;
-    color: #FFF;
+    color: #1C1C1C;
     text-align: center;
     border-bottom: 1px solid #444;
     padding-bottom: 20px;
     grid-area: header;
-    background-color: tomato;
-    border-radius: 6px;
 `;
 
 export const Main = styled.div`
@@ -34,6 +32,5 @@ export const Main = styled.div`
 
 export const SideBar = styled.div`
     grid-area: sidebar;
-    background-color: green;
-    border-radius: 6px;
+    border-right: 1px solid #444;
 `;
