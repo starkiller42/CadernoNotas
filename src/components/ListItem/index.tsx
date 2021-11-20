@@ -29,7 +29,7 @@ export const ListItem = ({list, selecionaItem}: Props) => {
     return(
         <C.Container>
             <input type="text" placeholder="Pesquisar" onChange={e=>setSearch(e.target.value)} />
-            <button>🔎</button>
+            <button>Buscar 🔎</button>
 
             {search==="" &&
                 list.map((item, index)=>(

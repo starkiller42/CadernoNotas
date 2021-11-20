@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background: #7F878A;
+    background: #99B2B7;
     color: #2F4F4F;
     min-height: 100%;
     display: grid;
@@ -26,7 +26,6 @@ export const Header = styled.h1`
 
 export const Main = styled.div`
     grid-area: main;
-    background-color: blue;
     border-radius: 6px;
 `;
 

@@ -14,7 +14,7 @@ export const Container = styled.div`
         font-size: max(16px, 1em);
         font-family: inherit;
         padding: 0.25em 0.5em;
-        background-color: #fff;
+        background-color: #D5DED9;
         border: 2px solid var(--input-border);
         border-radius: 4px;
     }
@@ -23,6 +23,6 @@ export const Container = styled.div`
         width: 500px;
         height: 500px;
         font-size: 16px;
-        
+        background-color: #D5DED9;
     }
 `;
